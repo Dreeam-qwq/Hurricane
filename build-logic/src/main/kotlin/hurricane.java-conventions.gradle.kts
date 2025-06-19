@@ -5,11 +5,10 @@ plugins {
 
 repositories {
     //mavenLocal()
-    maven("https://papermc.io/repo/repository/maven-public/")
-    maven("https://oss.sonatype.org/content/groups/public/")
+    mavenCentral()
+    maven("https://repo.papermc.io/repository/maven-public/")
     maven("https://repo.opencollab.dev/maven-releases/")
     maven("https://repo.opencollab.dev/maven-snapshots/")
-    maven("https://repo.maven.apache.org/maven2/")
 }
 
 group = properties["group"] as String
